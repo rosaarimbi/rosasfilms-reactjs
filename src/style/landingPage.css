@@ -3,17 +3,25 @@
     background: url("../assets/images/bg/main.jpg"); 
 }
 .intro {
-    height: 300px;
+    height: 350px;
     display: flex;
     justify-content: end;
     align-items: end;
 }
+.navHeadTitle {
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+.navTitle {
+    font-size: 1.3rem;
+    font-weight: 500;
+}
 .title {
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: 800;
     line-height: 1;
-    text-shadow: 2px 3px black;
-    letter-spacing: 4px;
+    text-shadow: 4px 6px black;
+    letter-spacing: 3px;
 }
 
 .trending {
@@ -27,14 +35,12 @@
     margin: 5px;
     padding: 5px;
 }
-.movieWrapper {
-}
 .images {
     height: 500px;
 }
 
-.superhero {
+.action {
     height: auto;
-    background-color: gray; 
+    background: url("../assets/images/bg/batman.jpg"); 
     background-size: cover;
 }

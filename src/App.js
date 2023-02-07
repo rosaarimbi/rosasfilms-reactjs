@@ -3,7 +3,7 @@ import NavigationBar from './components/NavigationBar'
 import "./style/landingPage.css"
 import Intro from './components/Intro'
 import Trending from './components/Trending'
-import SuperHero from './components/Superhero'
+import Action from './components/Action'
 
 function App() {
   return (
@@ -23,8 +23,8 @@ function App() {
 
       
       {/* superhero section */}
-      <div className="superhero">
-        <SuperHero/>
+      <div className="action">
+        <Action/>
       </div>
       {/* end of superhero section */}
     </div>

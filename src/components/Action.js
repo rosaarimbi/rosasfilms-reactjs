@@ -1,23 +1,23 @@
 import { Card, Container, Row, Col, Image } from "react-bootstrap"
-import avengersImage from "../assets/images/superhero/avengers.jpg"
-import shangchiImage from "../assets/images/superhero/shangchi.jpg"
-import sriasihImage from "../assets/images/superhero/sriasih.jpg"
+import inceptionImage from "../assets/images/action/inception.jpg"
+import afterearthImage from "../assets/images/action/afterearth.jpg"
+import godzillaImage from "../assets/images/action/godzilla.jpg"
 
 
-const SuperHero = () => {
+const Action = () => {
     return (
         <div>
             <Container>
                 <br/>
-                <h1 className="text-white">TRENDING MOVIES</h1>
+                <h1 className="text-white">ACTION MOVIES</h1>
                 <br/>
                 <Row>
-                    <Col md={4} className="movieWrapper" id="superhero">
+                    <Col md={4} id="action">
                         <Card className="movieImage">
-                            <Image src={avengersImage} alt="Avengers Movies" className="images"/>
+                            <Image src={inceptionImage} alt="Inception Movies" className="images"/>
                             <div className="bg-dark"> 
                                 <div className="p-2 m-1 text-white">
-                                <Card.Title className="text-center">AVENGERS</Card.Title>
+                                <Card.Title className="text-center">INCEPTION</Card.Title>
                                 <Card.Text className="text-left">
                                 This is a wider card with supporting text below as a natural lead-in
                                 to additional content. This content is a little bit longer.
@@ -27,12 +27,12 @@ const SuperHero = () => {
                             </div>
                         </Card>
                     </Col>
-                    <Col md={4} className="movieWrapper">
+                    <Col md={4} >
                         <Card className="movieImage">
-                            <Image src={sriasihImage} alt="Sriasih Movies" className="images"/>
+                            <Image src={godzillaImage} alt="Godzilla Movies" className="images"/>
                             <div className="bg-dark"> 
                                 <div className="p-2 m-1 text-white">
-                                <Card.Title className="text-center">SRI ASIH</Card.Title>
+                                <Card.Title className="text-center">GODZILLA</Card.Title>
                                 <Card.Text className="text-left">
                                 This is a wider card with supporting text below as a natural lead-in
                                 to additional content. This content is a little bit longer.
@@ -42,12 +42,12 @@ const SuperHero = () => {
                             </div>
                         </Card>
                     </Col>
-                    <Col md={4} className="movieWrapper">
+                    <Col md={4} >
                         <Card className="movieImage">
-                            <Image src={shangchiImage} alt="Shangchi Movies" className="images"/>
+                            <Image src={afterearthImage} alt="Afterearth Movies" className="images"/>
                             <div className="bg-dark"> 
                                 <div className="p-2 m-1 text-white">
-                                <Card.Title className="text-center">SHANG CHI</Card.Title>
+                                <Card.Title className="text-center">AFTER EARTH</Card.Title>
                                 <Card.Text className="text-left">
                                 This is a wider card with supporting text below as a natural lead-in
                                 to additional content. This content is a little bit longer.
@@ -64,4 +64,4 @@ const SuperHero = () => {
 }
 
 
-export default SuperHero
+export default Action
